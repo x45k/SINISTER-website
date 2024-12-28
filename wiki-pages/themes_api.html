@@ -37,9 +37,20 @@
                 <p>You can use the official <a href="https://doc.qt.io/qt-6/stylesheet.html">[Qt Documentation]</a> to design the file.</p>
                 <br>
                 <h2>Additions made by SINISTER.</h2>
-                <p>Currently the only addition made is adding path-holders to refer to specific directories using the .qss file.</p>
+                <h4>Added path-holders to refer to specific directories using the .qss file.</h4>
                 <p>{RESOURCE_PATH} for referring to the resources directory.</p>
                 <p>{THEME_PATH} for referring to the themes directory.</p>
+                <br>
+                <h4>Added path-holders to refer to specific directories using the .qss file.</h4>
+                <p>One of the tags provided below should be copied AS IS to the VERY TOP of the theme file to define theme style:</p>
+                <div class="copy-item">
+                    <pre><code>/* Theme: Dark */</code></pre>
+                    <button class="copy-btn" onclick="copyToClipboard(this, '/* Theme: Dark */')">Copy</button>
+                </div>
+                <div class="copy-item">
+                    <pre><code>/* Theme: Light */</code></pre>
+                    <button class="copy-btn" onclick="copyToClipboard(this, '/* Theme: Light */')">Copy</button>
+                </div>
                 <br>
                 <h2>Where to start ?</h2>
                 <p>To start building the file you can use the dark_default file provided in the themes folder as a template.</p>

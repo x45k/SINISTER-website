@@ -178,6 +178,47 @@ footer {
     color: #a0a0a0;
 }
 
+/* Copy Box */
+.copy-box {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.copy-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.copy-item pre {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0;
+    flex-grow: 1;
+    margin-right: 0.5rem;
+    overflow-x: auto;
+}
+
+.copy-item .copy-btn {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.copy-item .copy-btn:hover {
+    background-color: #555;
+}
+
 /* Main Content */
 .main-content {
     width: 75%;
